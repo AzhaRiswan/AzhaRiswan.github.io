@@ -1,0 +1,33 @@
+.p3{
+    font-family:"chaparral pro light" ;
+  
+    font-style: bold ;
+    font-size: 45px ;
+    text-align: left ;
+    color: rgb(32, 5, 7);
+    
+}
+     
+
+
+
+.box1{
+    width: 300px ;
+    padding: 10px ;
+    background-image: url("f.jpeg");
+    box-align: left;
+    margin-left: 42% ;
+    height: 200px;
+ 
+    
+}
+
+.u{
+ margin-left: 40%;
+
+}
+
+body{
+    background-color:darkslateblue;
+    
+} 

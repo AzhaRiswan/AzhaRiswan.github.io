@@ -1,0 +1,348 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+html, body{
+    width: 100% ;
+    height: 100% ;
+    font-size: 14px ;
+    font-weight: normal ;
+}
+
+.background{
+    height : 100% ;
+    width : 100% ;
+    background-image: url(azha.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    position: fixed;
+    overflow: auto ;
+}
+
+.nav{
+     width: 350px ;
+     height: 635px ;
+     position: fixed ;
+     top: 5% ;
+     left: 0 ;
+}
+
+.nav a{
+      text-decoration: none ;
+      font-size: 28px;
+      font-family: verdana ;
+      font-weight: bold ;
+      height: 80px ;
+      margin: 5px 0 ;
+      float: left ;
+      display: inline-block;
+      background-color: black ;
+      color: white ;
+      line-height: 90px ;
+      text-align: center ;
+      transition: 300ms ;
+}
+
+a.active , .nav a:hover{
+    background-color: white ;
+    color: #000;
+    width: 100% ;
+}
+
+.a{
+    width: 100% ;
+}
+
+.b{
+    width: 90% ;
+}
+
+.c{
+    width: 80% ;
+}
+
+.d{
+    width: 70% ;
+}
+
+.e{
+    width: 80% ;
+}
+
+.f{
+    width: 90% ;
+}
+
+.g{
+    width: 100% ;
+}
+
+.boxhome{
+	width: 0 ;
+    padding: 10px ;
+    background: rgba(4, 38, 56, 0.9);
+    box-align: center;
+    margin-right: 4cm;
+    height: 400px;
+    margin-top: -1%;
+	
+    
+	
+}
+
+h1 {
+    font-family: 'brittanic bold' ;
+    font-size: 80px;
+    margin-left: 60% ;
+    margin-top: 7.5em ;
+    font-weight: bolder ;
+    color : mintcream;
+	position : fixed ;
+   
+    
+}
+
+.p1{
+    font-family: "adobe fangsong std" ;
+    display: block;
+    margin-top: 9em ;
+    margin-bottom: -2%;
+    margin-left: 65% ;
+    font-style: normal ;
+    font-size: 59px;
+    color: mintcream;
+	position : fixed ;
+   
+
+}
+
+.p2{
+    font-family: "adobe fangsong std";
+    margin-bottom: -2% ;
+    margin-top: 11em  ;
+    margin-bottom: 20% ;
+    margin-left: 53% ;
+    font-style: initial ;
+    font-size: 59px ;
+    text-align : center ;
+    color: mintcream ;
+    position : fixed ;
+}
+
+.p3{
+    font-family:"chaparral pro light" ;
+    margin-top: -20%;
+    margin-bottom: 10%;
+    margin-left: 67%;
+    font-style: normal ;
+    font-size: 45px ;
+    text-align: left ;
+    color: black;
+    
+}
+
+.box1{
+     width: 1000px ;
+     padding: 10px ;
+     background: rgba(244, 238, 247, 0.7) ;
+     box-align: center;
+     margin-left: 25% ;
+     height: 600px;
+	 margin-top : 80em;
+  
+     
+}
+
+
+.box2{
+    width: 1000px ;
+    padding: 10px ;
+    background: rgba(244, 238, 247, 0.7) ;
+    box-align: center;
+    margin-left: 25% ;
+    height: 900px;
+	margin-top :12%;
+   
+}
+
+.box3{
+    width: 1000px ;
+    padding: 10px ;
+    background: rgba(244, 238, 247, 0.7) ;
+    box-align: center;
+    margin-left: 25% ;
+    height: 600px;
+    
+}
+
+.box4{
+    width: 1000px ;
+    padding: 10px ;
+    background: rgba(244, 238, 247, 0.7) ;
+    box-align: center;
+    margin-left: 25% ;
+    height: 1200px;
+	
+   
+}
+
+.box5{
+    width: 1000px ;
+    padding: 10px ;
+    background-color:blonde;
+    background: rgba(244, 238, 247, 0.7) ;
+    box-align: center;
+    margin-left: 25% ;
+    height: 500px;
+	margin-top :12%;
+    
+}
+
+.box6{
+    width: 1000px ;
+    padding: 10px ;
+    background-color:blonde;
+    background: rgba(244, 238, 247, 0.7) ;
+    box-align: center;
+    margin-left: 25% ;
+    height: 450px;
+	margin-top : 12em;
+	margin-bottom : 12%;
+   
+}
+
+.h2{
+    font-family: "chaparral pro light" ;
+    font-size:47px; 
+    color:rgb(177, 54, 177);
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.h3{
+    font-family: "chaparral pro light";
+    font-size: 30px;
+    color : rgb(179, 12, 173);
+    text-align: left;
+    font-style: italic;
+}
+
+
+.p4{
+     font-family: "chaparral pro light";
+     font-size: 28px;
+     color: black;
+
+}
+
+#myProgress{
+           width: 60%;
+      
+}
+
+#myBar{
+        width: 5%;
+        height: 5px;
+        background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress1{
+    width: 60%;
+
+}
+
+#myBar1{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress2{
+    width: 60%;
+
+}
+
+#myBar2{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress3{
+    width: 60%;
+
+}
+
+#myBar3{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress4{
+    width: 60%;
+
+}
+
+#myBar4{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress5{
+    width: 60%;
+
+}
+
+#myBar5{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+#myProgress6{
+    width: 60%;
+
+}
+
+#myBar6{
+ width: 5%;
+ height: 5px;
+ background-color: rgb(122, 15, 223);
+
+}
+
+.h4{
+    font-family: "chaparral pro light";
+    font-size: 30px;
+    color : whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+.box9{
+    width: 0 ;
+    padding: 10px ;
+    background: rgba(6, 38, 56, 0.9);
+    box-align: center;
+    margin-right: 4cm;
+    height: 400px;
+    margin-top: 10%;
+    
+}
+
+.p5{
+    font-family: "chaparral pro light";
+    font-size: 28px;
+    color: rgb(233, 227, 227);
+    text-align: center;
+}
